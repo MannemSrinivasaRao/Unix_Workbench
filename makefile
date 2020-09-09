@@ -1,4 +1,3 @@
-touch README.md
 echo "Project Title:" > README.md
 echo "The Unix Workbench: John Hopkins University" >> README.md
 echo "Run date of makefile:" >> README.md
