@@ -2,7 +2,7 @@
 
 #Reading number of files in directory
 
-Number_of_files=`ls | wc -l`
+Number_of_files=ls | wc -l
 function files_count()
 {
   echo "How many files do you guess are there in the current directory:"
@@ -22,4 +22,4 @@ function files_count()
   done
   echo "Congratulations! You have guessed the exact number of files"
 }
-files_count()
+files_count
